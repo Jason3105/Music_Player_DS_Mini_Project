@@ -70,7 +70,8 @@ Playlist:
 5. Display Playlist  
 6. Add New Song  
 7. Delete Song  
-8. Exit  
+8. Exit
+
 Enter your choice: 3  
 Enter the song number to play: 2 
 Attempting to play: C:\Users\jason\Music\Espresso.mp3  
@@ -86,3 +87,21 @@ Attempting to play: C:\Users\jason\Music\Espresso.mp3
 Ensure your .mp3 file paths are correct.  
 For Windows, paths should use double backslashes (\\) or forward slashes (/).  
 The program uses the system's default media player to play songs.  
+
+## Screenshots
+
+### Code Preview
+![Playlist View](Images/ss1.png)
+
+### Song File Paths
+![Detailed Interface](Images/ss1.1.png)
+
+### Running the Program
+![Playing a Song](Images/ss2.png)
+
+### Playing the Song
+![Adding a Song](Images/ss3.png)
+
+### Terminal Preview
+![Deleting a Song](Images/ss4.png)
+
