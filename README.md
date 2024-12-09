@@ -1,6 +1,6 @@
 # 🎵 Data Structure Mini Project: Spotify-Like Algorithm-Based Music Player
 
-This project implements a music player using linked lists to manage a playlist, inspired by Spotify-like functionalities. It allows users to add, play, delete, and shuffle songs in a dynamic playlist while leveraging system commands to play .mp3 files using the default media player.
+This project implements a music player using doubly linked lists to manage a playlist, inspired by Spotify-like functionalities. It allows users to add, play, delete, and shuffle songs in a dynamic playlist while leveraging system commands to play .mp3 files using the default media player.
 
 📋 Features  
 1. Add Songs: Add new .mp3 songs to the playlist and save them to a file (songs.txt).  
