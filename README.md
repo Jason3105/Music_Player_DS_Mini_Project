@@ -2,7 +2,7 @@
 
 This project implements a music player using doubly linked lists to manage a playlist, inspired by Spotify-like functionalities. It allows users to add, play, delete, and shuffle songs in a dynamic playlist while leveraging system commands to play .mp3 files using the default media player.
 
-📋 Features  
+# 📋 Features  
 1. Add Songs: Add new .mp3 songs to the playlist and save them to a file (songs.txt).  
 2. Play Songs: Play selected songs or navigate through the playlist using:  
 &nbsp;- Play Next  
@@ -13,12 +13,12 @@ This project implements a music player using doubly linked lists to manage a pla
 5. Display Playlist: View the current playlist.  
 6. Persistent Storage: Songs are stored in songs.txt and loaded on startup.
 
-🛠️ Data Structures Used  
+# 🛠️ Data Structures Used  
 
 &nbsp;- Doubly Linked List: Manages the dynamic playlist, allowing forward and backward navigation.  
 &nbsp;- File Handling: Loads and saves songs to songs.txt for persistent storage.  
 
-🚀 How to Run the Project  
+# 🚀 How to Run the Project  
 1. Prerequisites  
 &nbsp;- Operating System: Windows, macOS, or Linux.  
 &nbsp;- C Compiler: gcc (MinGW for Windows or GCC for macOS/Linux).  
@@ -35,7 +35,7 @@ C:\\Users\\jason\\Music\\story_of_my_life.mp3
 5. Run the Program  
 ./music_player  
 
-📄 Usage Instructions
+# 📄 Usage Instructions
 
 Upon running the program, you'll see a menu like this:  
 1. Play Next  
@@ -57,7 +57,7 @@ Menu Options
 7. Delete Song: Delete a song by specifying its number.  
 8. Exit: Exit the program.  
 
-🖥️ Example Session
+# 🖥️ Example Session
 
 Playlist:  
 1. C:\Users\jason\Music\sairat.mp3  
@@ -76,19 +76,19 @@ Enter your choice: 3
 Enter the song number to play: 2 
 Attempting to play: C:\Users\jason\Music\Espresso.mp3  
 
-📝 Project Structure
+# 📝 Project Structure
 
 ├── prototype.c    # Main source code file  
 ├── songs.txt         # File storing the playlist (full paths of .mp3 files)  
 └── README.md         # Project documentation  
 
-⚠️ Notes
+# ⚠️ Notes
 
 Ensure your .mp3 file paths are correct.  
 For Windows, paths should use double backslashes (\\) or forward slashes (/).  
 The program uses the system's default media player to play songs.  
 
-## Screenshots
+# Screenshots
 
 ### Code Preview
 ![Playlist View](Images/ss1.png)
